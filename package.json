@@ -18,5 +18,8 @@
     "build": "npm-run-all build-demo build-prod",
     "build-demo": "npx webpack-cli --mode=development --config webpack.dev.js",
     "build-prod": "npx webpack-cli --mode=production --config webpack.prod.js"
+  },
+  "dependencies": {
+    "d3": "^7.8.5"
   }
 }
